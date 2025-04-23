@@ -1,19 +1,36 @@
-# 📄 Document question answering template
+# Resume vs. Job Description Analyzer
 
-A simple Streamlit app that answers questions about an uploaded document via OpenAI's GPT-3.5.
+Compare a resume to a job description using LLMs — find skill gaps and improve your job-fit instantly.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://document-question-answering-template.streamlit.app/)
+## Overview
 
-### How to run it on your own machine
+This Streamlit app helps job seekers, recruiters, and career coaches analyze how well a resume matches a job description using Google's Gemini LLM (via LangChain).
 
-1. Install the requirements
+With a single click, it:
+- Highlights missing skills, qualifications, or experience
+- Suggests resume improvements to better align with the job
+- Provides an Overall Fit rating and a list of key gaps
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+---
 
-2. Run the app
+## Powered By
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+- [Streamlit](https://streamlit.io/)
+- [LangChain](https://docs.langchain.com/)
+- [Google Generative AI](https://makersuite.google.com/app/apikey)
+- [PyPDF2](https://pypi.org/project/PyPDF2/)
+
+---
+
+## Features
+
+- Upload resume as a PDF
+- Paste any job description
+- Secure input (nothing stored)
+- AI-generated insights:
+  - Summary (Overall Fit + Key Gaps)
+  - Skill/experience gaps
+  - Resume improvement suggestions
+
+---
+
